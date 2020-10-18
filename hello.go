@@ -1,7 +1,9 @@
 package main
 
 import "fmt"
+import "example.com/greetings"
 
 func main() {
-	fmt.Println("vim-go")
+	message := greetings.Hello("Hello Baby Niharika!!")
+	fmt.Println(message)
 }
